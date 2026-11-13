@@ -1,0 +1,15 @@
+private-evidence/
+*-private/
+*Audit/
+reports/
+report.html
+applications.csv
+permissions.csv
+coverage.csv
+summary.json
+*.log
+*.zip
+*.pfx
+*.pem
+*.key
+.env*

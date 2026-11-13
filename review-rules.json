@@ -1,0 +1,210 @@
+[
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "AppRoleAssignment.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage application permission assignments. Review who controls this client and the business need.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#approleassignment.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "AppRoleAssignment.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage application permission assignments. Review who controls this client and the business need. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#approleassignment.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "RoleManagement.ReadWrite.Directory",
+    "Priority": "High",
+    "Reason": "Can manage Entra directory role assignments. Review privilege escalation exposure.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#rolemanagement.readwrite.directory"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "RoleManagement.ReadWrite.Directory",
+    "Priority": "High",
+    "Reason": "Can manage Entra directory role assignments. Review privilege escalation exposure. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#rolemanagement.readwrite.directory"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Application.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage applications and service principals. Review the ability to change credentials and configurations.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#application.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Application.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage applications and service principals. Review the ability to change credentials and configurations. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#application.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Directory.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can make broad directory changes. Review required operations and administrative context.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#directory.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Directory.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can make broad directory changes. Review required operations and administrative context. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#directory.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "DelegatedPermissionGrant.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage delegated permission grants. Review authorization to consent for other applications.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#delegatedpermissiongrant.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "DelegatedPermissionGrant.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can manage delegated permission grants. Review authorization to consent for other applications. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#delegatedpermissiongrant.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Mail.Read",
+    "Priority": "High",
+    "Reason": "Can read mailbox content within the applicable permission and resource controls. Confirm mailbox scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.read"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Mail.Read",
+    "Priority": "High",
+    "Reason": "Can read mailbox content within the applicable permission and resource controls. Confirm mailbox scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.read"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Mail.ReadWrite",
+    "Priority": "High",
+    "Reason": "Can read and change mailbox content within applicable controls. Confirm mailbox scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.readwrite"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Mail.ReadWrite",
+    "Priority": "High",
+    "Reason": "Can read and change mailbox content within applicable controls. Confirm mailbox scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.readwrite"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Mail.Send",
+    "Priority": "High",
+    "Reason": "Can send mail within applicable controls. Confirm sender scope and business purpose.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.send"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Mail.Send",
+    "Priority": "High",
+    "Reason": "Can send mail within applicable controls. Confirm sender scope and business purpose. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#mail.send"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Files.Read.All",
+    "Priority": "High",
+    "Reason": "Can read files within the applicable permission and resource controls. Confirm data scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#files.read.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Files.Read.All",
+    "Priority": "High",
+    "Reason": "Can read files within the applicable permission and resource controls. Confirm data scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#files.read.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Files.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can read and change files within applicable controls. Confirm data scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#files.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Files.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can read and change files within applicable controls. Confirm data scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#files.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Sites.Read.All",
+    "Priority": "High",
+    "Reason": "Can read SharePoint content within applicable controls. Confirm site scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.read.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Sites.Read.All",
+    "Priority": "High",
+    "Reason": "Can read SharePoint content within applicable controls. Confirm site scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.read.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Sites.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can read and change SharePoint content within applicable controls. Confirm site scope.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Sites.ReadWrite.All",
+    "Priority": "High",
+    "Reason": "Can read and change SharePoint content within applicable controls. Confirm site scope. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.readwrite.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Application",
+    "Permission": "Sites.FullControl.All",
+    "Priority": "High",
+    "Reason": "Can exercise full control over SharePoint sites within applicable controls. Confirm necessity.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.fullcontrol.all"
+  },
+  {
+    "ResourceAppId": "00000003-0000-0000-c000-000000000000",
+    "Kind": "Delegated",
+    "Permission": "Sites.FullControl.All",
+    "Priority": "High",
+    "Reason": "Can exercise full control over SharePoint sites within applicable controls. Confirm necessity. Delegated access also depends on the signed-in user.",
+    "Source": "https://learn.microsoft.com/en-us/graph/permissions-reference#sites.fullcontrol.all"
+  }
+]
