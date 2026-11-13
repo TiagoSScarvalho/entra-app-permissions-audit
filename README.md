@@ -8,6 +8,8 @@ A read-only PowerShell inventory of direct OAuth delegated consent and applicati
 
 The collector makes Microsoft Graph GET requests only. It does not install software, sign in, consent, revoke permissions or change applications. The author header is attribution, not an Authenticode signature. Reports are never uploaded to GitHub.
 
+[Read the practical guide with tenant screenshots](https://www.tiagoscarvalho.com/azure-entra-id/entra-oauth-permissions-audit-powershell)
+
 ## Start here
 
 1. Read the scope below and extract the complete package.
@@ -112,3 +114,4 @@ The four-client pilot on 13 November 2026 completed all 13 reads and returned 78
 - [Review enterprise application permissions](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions)
 - [Microsoft Graph permissions reference](https://learn.microsoft.com/en-us/graph/permissions-reference)
 - [Microsoft Graph throttling](https://learn.microsoft.com/en-us/graph/throttling)
+
